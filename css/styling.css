@@ -1,0 +1,31 @@
+h1{
+         
+    font-style: normal;
+    background-color: black ;
+    text-align: left;
+}
+.red{
+    color: white;
+    
+}
+.blue{
+    color: aqua;
+    
+}
+
+
+h2{
+    background-color: violet;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+    
+}
+h3{
+    background-color: aqua;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: normal;
+}
