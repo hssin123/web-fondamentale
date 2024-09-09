@@ -1,5 +1,4 @@
-h1{
-         
+h1{       
     font-style: normal;
     background-color: black ;
     text-align: left;
@@ -9,18 +8,14 @@ h1{
     
 }
 .blue{
-    color: aqua;
-    
+    color: aqua;  
 }
-
-
 h2{
     background-color: #663399;
     color: white;
     text-align: center;
     font-family: monospace;
-    font-style: italic;
-    
+    font-style: italic;    
 }
 h3{
     background-color: #9fc5f8;
