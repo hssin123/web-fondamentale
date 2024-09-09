@@ -6,15 +6,13 @@
     padding: 1px;   
     display: flex; 
     justify-content: space-between;
-
 }
 
 
 .nav-title{
     color:#ffffff ;
     padding: 10px;
-    margin: 1px;
-   
+    margin: 1px;  
 }
 
 
@@ -36,8 +34,7 @@
     height:34px ;
     margin-bottom:2px;
     width:126px ;
-    box-shadow: 10px 5px 5px black;
-   
+    box-shadow: 10px 5px 5px black;   
 }
 
 
