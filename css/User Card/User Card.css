@@ -1,0 +1,50 @@
+.box1{
+    background-color:#ffffff;
+    border:#cccccc solid;
+    height:305px ;
+    width:700px ;
+    margin-left:376px;
+    margin-top:37px;
+}
+.box2{
+    background-color:#17a2b8;
+    height:84px ;
+    width: 708px;
+    position: absolute;
+    top:5%;
+    right:34%;
+    left:25%;
+}
+.img1{
+    height:83px ;
+    width: 91px;
+    margin-left:28px;
+    margin-top:44px; 
+    border:#cccccc solid; 
+    border-radius:47% ;
+}
+.H1{
+    position: absolute;
+    top:129%;
+    left:4%;
+  }
+.img2{
+    height:18px;
+    width:14px ;
+    margin-left:27px ;
+    margin-top:37px;
+}
+.pargraphe{
+margin-left:27px ;
+}
+.img3{
+    height:20px ;
+    width: 20px;
+    margin-left:24px ;
+}
+.LBL{
+   position: absolute;
+   top:173px ;
+   left:50px ;
+   font-size:20px ;
+}
