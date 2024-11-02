@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="Button.css">
+</head>
+
+<body>
+    <nav class="Nav">
+        <div class="flex-container">
+            <h1 class="nav-title">Dojonary</h1>
+            <ul class="nav-links">
+                <li><input type="text" name="query" placeholder="Search" required class="Sch"></li>
+                <li><button onclick="turnLogout(this)" class="btn">Login</button></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="Grandbox">
+        <div class="col-2">
+            <div class="box1">
+                <h1>ninja</h1>
+                <p class="n1">noun</p>
+                <p class="n2">Plural: <label class="LBL">ninjas</label></p>
+                <button class="bouton1" onclick="alert('ninja was liked')">13 likes</button>
+            </div>
+            <br>
+            <div class="box2">
+                <h1>ninja</h1>
+                <p class="n3">noun</p>
+                <p class="n4">Plural: <label class="LBL">ninjas</label></p>
+                <button class="bouton2" onclick="alert('ninja was liked')">37 likes</button>
+            </div>
+        </div>
+        <div class="col-1">
+            <div class="box3">
+                <p>Dojonary is</p>
+                <p>defined by <strong>You</strong></p>
+                <button class="bouton3" onclick="rem(this)">add Definition</button>
+            </div>
+        </div>
+        <div class="pargraphe1">
+            <p>A practitioner skilled in the
+                <br>
+                <a href="#">japanese</a>art of<a href="#">ninjutsu</a>
+            </p>
+        </div>
+        <div class="pargraphe2">
+            <p>A <a href="#">programmer</a> who breaks
+                <br>
+                down problems with<a href="#">zen</a>-like
+                focus
+            </p>
+        </div>
+    </main>
+</body>
+<script src="Button.js"></script>
+
+</html>

@@ -1,0 +1,8 @@
+let product = 1;
+
+for (let i = 1; i <= 12; i++) {
+    product *= i; // Multiplie la valeur actuelle avec le produit
+    console.log(i)
+}
+
+console.log(`Le produit de 1 à 12 est : ${product}`);

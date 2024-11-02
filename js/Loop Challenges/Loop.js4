@@ -1,0 +1,8 @@
+let somme = 0;
+
+for (let i = 1; i <= 100; i++) {
+    somme += i; // Ajoute la valeur actuelle à la somme
+    console.log(i)
+}
+
+console.log(`La somme de 1 à 100 est : ${somme}`);

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .flex-container, .nav-links, .Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Nav {
+    height:68px;
+    margin-right:119px;
+    margin-left:119px ;
+    background-color:#cccccc;
+    color:#ededed;
+    margin-bottom: 20px;
+  }
+  .nav-title{
+    color:#000000;
+    margin-left:20px;
+  }
+  .nav-links {
+    width:44%;
+    list-style-type: none;
+    align-items: center;
+    margin-right:41% ;
+  }
+  .Sch{
+    border:solid black 2px;
+    height:27px;
+    width:467px;
+    margin-left:189px ;
+  }
+  .btn {
+    height: 30px;
+    width: 100px;
+    color:#dae7fa;
+    background-color:#2b78e4;
+    border:solid 2px black;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px black;
+    margin-left:321px;
+  }
+  .col-2{
+    display: flex;
+    flex-direction: column;
+    margin-left:118px ;
+    
+  }
+  .box1{
+    border:solid black 2px ;
+    height:145px ;
+    width:710px ;
+    padding:10px ;
+  }
+  .bouton1{
+    height: 30px;
+    width: 100px;
+    color:#221d0d;
+    background-color:#ffd966;
+    border:solid 2px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top:9%;
+    box-shadow: 10px 5px 5px black;
+
+  }
+  .box2{
+    border:solid black 2px ;
+    height:145px ;
+    width:710px ;
+    padding:10px ;
+  }
+  .bouton2{
+    box-shadow: 10px 5px 5px black;
+    color:#221d0d;
+    background-color:#ffd966;
+    height: 30px;
+    width: 100px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top:9%;
+  }
+  .box3{
+    border:solid black 2px ;
+    height:100px ;
+    width:516px ;
+    margin-left:20px ;
+    padding:10px ;
+    font-size:25px ;
+  }
+  .bouton3{
+    box-shadow: 10px 5px 5px black;
+    height: 39px;
+    width: 259px;
+    color:#0a0d08;
+    background-color:#93c47d;
+    border:solid 2px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .Grandbox{
+    display: flex;
+    flex-wrap: nowrap
+  }
+  .pargraphe1{
+    position: absolute;
+    left:336px ;
+    top:142px ;
+  }
+  .pargraphe2{
+    position: absolute;
+    left:336px ;
+    top:322px ;
+  }
+  .n1{
+    font-style: italic;
+    position: absolute;
+    top:139px ;
+    left:144px ;
+  }
+  .n2{
+    position: absolute;
+    top:167px ;
+    left:129px ;
+  }
+  .n3{
+    font-style: italic;
+    position: absolute;
+    top:327px ;
+    left:144px ;
+  }
+  .n4{
+    position: absolute;
+    top:355px ;
+    left:129px ;
+  }
+  .LBL{
+    font-style: italic;
+  }

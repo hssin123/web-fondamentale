@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  .flex-container, .nav-links, .Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Nav {
+    height:68px;
+    margin-right:119px;
+    margin-left:119px ;
+    background-color:#333333;
+    color:#ededed;
+    margin-bottom: 20px;
+    border-top:#9900ff solid 6px;
+    margin-bottom:10px ;
+  }
+  .nav-title{
+    color:#e8e8e8;
+    margin-left:20px;
+  }
+  .nav-links {
+    width:44%;
+    list-style-type: none;
+    align-items: center;
+    margin-right:41% ;
+  }
+  .Sch{
+    border:solid black 2px;
+    height:27px;
+    width:467px;
+    margin-left:189px ;
+  }
+  .btn {
+    height: 30px;
+    width: 100px;
+    color:#f8edfe;
+    background-color:#9900ff;
+    border:solid 3px black;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px black;
+    margin-left:321px;
+  }
+  .vd1{
+    height:466px ;
+    width:808px ;
+  }
+  .img1{
+    height:69px ;
+    width:73px ;
+   
+  }
+  .n1{
+    color: #a421fd;
+    
+  }
+  .Grandbox{
+    display: flex;
+    justify-content: space-between;
+  }
+  .box1{
+    height:576px ;
+    width:825px ;
+    margin-left:117px ;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .box2{
+    
+    height:576px ;
+    width:460px ;
+    margin-right:118px ;
+  }
+  .box3{
+    margin-top:228px ;
+  }
+  .n2{
+    margin-top:20px ;
+    margin-right:30px ;
+  }
+  .btn2 {
+    height:40px;
+    width:164px;
+    color:#f8edfe;
+    background-color:#9900ff;
+    border:solid 3px black;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px black;
+    margin-left:358px ;
+    margin-top:15px ;
+  }
+  .img2{
+    height:120px ;
+    width:162px ;
+  }
+  .card-list {
+    padding-top: 20px;
+    list-style-type: none;
+  }
+  .card-list-item, 
+.card-list-item > * {
+  display: flex;
+  align-items: center;
+}
+.card-list-item {
+  margin-bottom: 20px;
+}
+.card-list-item.start {
+  justify-content: flex-start;
+}
+.paragraphe{
+  margin:10px 0px ;
+}
+.n3{
+  margin-left:10px ;
+}
+.box4{
+  display: flex;
+}
+.box5{
+  display: flex;
+  align-items: center;
+}
+.box6{
+  margin-top:15px ;
+}
+.n4{
+  margin-top:5px ;
+}

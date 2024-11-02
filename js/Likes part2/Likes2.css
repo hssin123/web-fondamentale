@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.title1{       
+    font-style: normal;
+    background-color: black ;
+    text-align: left;
+    color:#fcfcfc ;
+    margin-left:240px ;
+    margin-right:240px ;
+    padding:10px 20px ;
+    height: 40px;
+    font-family: sans-serif;
+}
+.title2{
+    text-align: center;
+    font-family: sans-serif;
+    margin:10px 0px;
+}
+.grandbox{
+ display:flex;
+ justify-content: flex-start;
+
+}
+.group1{
+ border:solid black 2px ;
+ height:242px ;
+ width:400px ;
+ margin-left:240px ;
+
+}
+.flx1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    height:100px ;
+    width:100px ;
+    margin-top:15px ;
+}
+.T1{
+  margin:15px 5px;  
+  font-size:17px ;
+}
+.T2{
+    font-size:27px ; 
+    font-family: sans-serif;
+}
+.group2{
+ display: flex;
+ flex-wrap: wrap;
+}
+.box1{
+    border:solid black 2px ;
+    height:162px ;
+    width:846px ;
+    margin-left:27px ;
+    margin-bottom:15px ;
+    font-family: sans-serif;
+}
+.box2{
+    border:solid black 2px ;
+    height:162px ;
+    width:846px ;
+    margin-left:27px ;
+    margin-bottom:15px ;
+    font-family: sans-serif;
+}
+.box3{
+    border:solid black 2px ;
+    height:162px ;
+    width:846px ;
+    margin-left:27px ; 
+    font-family: sans-serif;
+}
+.flx2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:20px ;
+  margin-left:20px ;
+  margin-right:20px ;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    color:#120f07;
+    background-color:#ffd966;
+    border:solid 3px black;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px black;
+
+}
+.Like1{
+    margin-left:400px ;
+}
+.Like2{
+    margin-left:364px;
+}
+.Like3{
+    margin-left:428px;
+}
+.paragraphe{
+    margin-left:22px ;
+    margin-top:31px ;
+    font-size:20px ;
+}

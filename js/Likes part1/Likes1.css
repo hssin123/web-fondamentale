@@ -1,0 +1,33 @@
+.box1{
+    border:solid black 2px;
+    height:117px ;
+    width:411px ;
+    margin-top:30px ;
+    margin-left:100px ;
+}
+.title{
+    margin-top:20px ;
+    margin-left:20px ;
+}
+.box2{
+  position: absolute;
+  top:42px ;
+  left:303px ;
+}
+.box3{
+ margin-left:20px ;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    color:#120f07;
+    background-color:#ffd966;
+    border:solid 3px black;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px black;
+    position: absolute;
+    top:52px ;
+    left:392px;
+
+}

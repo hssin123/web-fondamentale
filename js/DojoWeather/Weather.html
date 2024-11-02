@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="Weather.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="flex-container">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links">
+                <li><a href="#"onclick="alert('This page says Loading weather report...')">Burbank</a></li>
+                <li><a href="#" class="active">Chicago</a></li>
+                <li><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="flx1">
+        <h1 class="TLT1">San Jose</h1>
+        <label class="paragraphe1">show temperature in</label>
+         <select name="snack" class="opt1" onchange="changedValue(this)">
+              <option value="degree">°C</option> 
+              <option value="fahrenheit">°F</option> 
+           </select>
+    </div>
+    <hr>
+    <div class="flx2">
+         <div class="box1">
+           <h1 class="TLT2">Today</h1>
+           <img src="some_rain.png" alt="rain" class="img1">
+           <p class="paragraphe2">some rain</p>
+           <div class="flx3">
+              <p id="1" class="paragraphe4"><strong>24°</strong></p>
+              <p id="2"  class="paragraphe5"><strong>18°</strong></p>
+           </div>
+
+        </div>
+        <div class="box2">
+           <h1 class="TLT3">Tomorrow</h1>
+           <img src="some_sun.png" alt="sun" class="img1">
+           <p class="paragraphe2">some sun</p>
+           <div class="flx3">
+            <p id="3" class="paragraphe4"><strong>27°</strong></p>
+            <p id="4" class="paragraphe5"><strong>19°</strong></p>
+         </div>
+         </div>
+        <div class="box3">
+           <h1 class="TLT4">Friday</h1>
+           <img src="some_clouds.png" alt="clouds" class="img1">
+           <p class="paragraphe3">some clouds</p>
+           <div class="flx3">
+            <p id="5" class="paragraphe4"><strong>21°</strong></p>
+            <p id="6" class="paragraphe5"><strong>16°</strong></p>
+         </div>
+         </div>
+             <div class="box4">
+               <h1 class="TLT5">Saturday</h1>
+               <img src="some_sun.png" alt="sun" class="img1">
+               <p class="paragraphe2">some rain</p>
+               <div class="flx3">
+                <p id="7" class="paragraphe4"><strong>26°</strong></p>
+                <p id="8" class="paragraphe5"><strong>21°</strong></p>
+             </div>
+            </div>
+            <div class="cookie-banner" onclick="rem(this)">
+                <h3 class="Cook1">Stop! Cookie time</h3>
+                    <div class="flx4">
+                      <img src="cookie.png" alt="cookie" class="Cook2">
+                      <p class="Cook3">We use cookies (sadly not the edible ones) to personalize
+                      <br>
+                      content and ads, to provide social media features and to
+                      <br>
+                      analyse our traffic.<a href="#" class="Cook5">Read more...</a>
+                      </p>
+                      <button class="Cook4" onclick="rem(this)">I Accepter</button>
+                    </div>
+            </div>
+    </div>
+</body>
+<script src="Weather.js"></script>
+</html>
